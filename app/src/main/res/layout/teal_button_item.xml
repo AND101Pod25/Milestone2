@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/refresh_affirmation"
+    android:layout_width="176dp"
+    android:layout_height="38dp"
+    android:background="@drawable/rounded_teal_background_button"
+    android:text="Anxiety"
+    android:fontFamily="@font/inter_semibold"
+    android:textAllCaps="false"
+    android:textColor="#F2EDE4"
+    />

@@ -5,15 +5,16 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="#FAF7F2"
-    tools:context=".MainActivity">
+    tools:context=".AddActivity">
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/menu_button"
+        android:id="@+id/menu_button2"
         android:layout_width="56dp"
         android:layout_height="56dp"
         android:background="@drawable/circular_button_background"
         android:fontFamily="@font/inter"
         android:text="≡"
+        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="100px"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -21,10 +22,10 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
+        app:layout_constraintVertical_bias="0.023" />
 
     <TextView
-        android:id="@+id/app_name"
+        android:id="@+id/app_name2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
@@ -36,50 +37,35 @@
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.037" />
 
-    <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/add_button"
-        android:layout_width="56dp"
-        android:layout_height="56dp"
-        android:background="@drawable/circular_button_background"
-        android:fontFamily="@font/inter"
-        android:text="+"
-        android:textColor="#FFFFFF"
-        android:textSize="80px"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.954"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.038" />
-
-    <TextView
-        android:id="@+id/affirmation"
-        android:layout_width="378dp"
-        android:layout_height="74dp"
+    <EditText
+        android:id="@+id/editTextText2"
+        android:layout_width="287dp"
+        android:layout_height="51dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Insert your affirmation here..."
         android:fontFamily="@font/inter_semibold"
-        android:text="You are capable of achieving amazing things. Believe in yourself and your abilities."
         android:textAlignment="center"
         android:textSize="50px"
+        tools:layout_editor_absoluteX="62dp"
+        tools:layout_editor_absoluteY="320dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.515"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.499" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/refresh_affirmation"
+        android:id="@+id/refresh_affirmation2"
         android:layout_width="176dp"
         android:layout_height="38dp"
         android:background="@drawable/rounded_gray_button_background"
         android:fontFamily="@font/inter_semibold"
-        android:text="Refresh Affirmation"
+        android:text="Save Affirmation"
         android:textAllCaps="false"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.536"
+        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.976" />
-
+        app:layout_constraintVertical_bias="0.577" />
 </androidx.constraintlayout.widget.ConstraintLayout>
