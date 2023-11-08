@@ -21,14 +21,14 @@ Elevate your daily life with Affirmo, your personal affirmation companion. Start
 
 The following REQUIRED features are completed:
 
-- [X] Assign features to each member of your group
-- [X] Establish a goal time for completing each feature
+- [ ] Assign features to each member of your group
+- [ ] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
-- [X] Updated 📄 `project_spec.md`, which contains:
-  - [X] App Overview (Milestone 1)
-  - [X] App Spec (Milestone 1)
+- [ ] Updated 📄 `project_spec.md`, which contains:
+  - [ ] App Overview (Milestone 1)
+  - [ ] App Spec (Milestone 1)
   - [ ] Checked off 2+ completed features
   - [ ] 2+ Videos/GIFs of build progress
 
