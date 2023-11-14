@@ -16,7 +16,7 @@
         android:text="≡"
         android:textAlignment="center"
         android:textColor="#FFFFFF"
-        android:textSize="100px"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -30,12 +30,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
         android:text="Affirmo"
-        android:textSize="60px"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.042" />
 
     <EditText
         android:id="@+id/editTextText2"
@@ -46,7 +47,7 @@
         android:text="Insert your affirmation here..."
         android:fontFamily="@font/inter_semibold"
         android:textAlignment="center"
-        android:textSize="50px"
+        android:textSize="20sp"
         tools:layout_editor_absoluteX="62dp"
         tools:layout_editor_absoluteY="320dp"
         app:layout_constraintBottom_toBottomOf="parent"

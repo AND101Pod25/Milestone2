@@ -16,6 +16,8 @@ import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import okhttp3.Headers
 import kotlin.random.Random
+import android.content.Intent
+
 
 //class MainActivity : AppCompatActivity() {
 //    override fun onCreate(savedInstanceState: Bundle?) {
@@ -34,6 +36,20 @@ class MainActivity : AppCompatActivity() {
         quote = String()
         getData()
         getNextImage(button,tView)
+        val add_button = findViewById<Button>(R.id.add_button)
+        add_button.setOnClickListener {
+            // Move to the second activity
+            val intent = Intent(this, AddActivity::class.java)
+            startActivity(intent)
+        }
+        val menu_button = findViewById<Button>(R.id.menu_button)
+
+        menu_button.setOnClickListener {
+            // Move to the second activity
+            val intent = Intent(this, MenuActivity::class.java)
+            startActivity(intent)
+        }
+
     }
     private fun getData(){
         val client = AsyncHttpClient()

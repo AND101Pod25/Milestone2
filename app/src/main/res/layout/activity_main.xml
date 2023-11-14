@@ -15,7 +15,7 @@
         android:fontFamily="@font/inter"
         android:text="≡"
         android:textColor="#FFFFFF"
-        android:textSize="100px"
+        android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.045"
@@ -29,12 +29,13 @@
         android:layout_height="wrap_content"
         android:fontFamily="@font/inter_semibold"
         android:text="Affirmo"
-        android:textSize="60px"
+        android:textSize="30sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.037" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/add_button"
@@ -44,7 +45,7 @@
         android:fontFamily="@font/inter"
         android:text="+"
         android:textColor="#FFFFFF"
-        android:textSize="80px"
+        android:textSize="36sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.954"
@@ -59,7 +60,7 @@
         android:fontFamily="@font/inter_semibold"
         android:text="You are capable of achieving amazing things. Believe in yourself and your abilities."
         android:textAlignment="center"
-        android:textSize="50px"
+        android:textSize="20sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.515"
