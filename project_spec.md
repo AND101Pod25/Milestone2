@@ -95,7 +95,8 @@ Required Feature
 <img width="390" alt="Screenshot 2023-11-06 at 2 14 08 PM" src="https://github.com/AND101Pod25/Milestone1/assets/40745949/dedf5b7a-fb05-4ffa-a14c-21bc8747aff5">
 
 ## Videos and GIFs of App 
-https://raw.githubusercontent.com/AND101Pod25/Milestone2/main/Nov-13-2023%2023-48-55.gif
+![Nov-13-2023%2023-48-55.gif](https://raw.githubusercontent.com/AND101Pod25/Milestone2/main/Nov-13-2023%2023-48-55.gif)
+[![Nov-13-2023%2023-48-51.gif](https://raw.githubusercontent.com/AND101Pod25/Milestone2/main/Nov-13-2023%2023-48-51.gif)
 https://raw.githubusercontent.com/AND101Pod25/Milestone2/main/Nov-13-2023%2023-48-51.gif
 ## License
 
