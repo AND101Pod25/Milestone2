@@ -36,7 +36,9 @@ The following REQUIRED files are included:
 ## 🎥 Demo Video
 
 Here's a video that demos all of the app's implemented features:
+
 https://github.com/AND101Pod25/Milestone2/assets/40745949/ad9c480e-2232-4a08-aea8-874de745c6ac
+
 Video created with **Mac Screen Recording**
 
 ## Notes
