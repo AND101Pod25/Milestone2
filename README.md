@@ -8,7 +8,7 @@ Submitted by:
 - **Nicole Avila**
 - **Sanjita Pokhrel**
   
-Time spent: **10** hours spent in total
+Time spent: **12** hours spent in total
 
 ## Summary
 
@@ -17,35 +17,29 @@ Elevate your daily life with Affirmo, your personal affirmation companion. Start
 
 ## Milestone Requirements
 
-<!-- Please be sure to change the [ ] to [x] for any features you completed.  If a feature is not checked [x], you might miss the points for that item! -->
-
 The following REQUIRED features are completed:
 
-- [ x] Assign features to each member of your group
-- [ x] Establish a goal time for completing each feature
+- [x] Assign features to each member of your group
+- [x] Establish a goal time for completing each feature
 
 The following REQUIRED files are included:
 
-- [ ] Updated 📄 `project_spec.md`, which contains:
-  - [x ] App Overview (Milestone 1)
-  - [x ] App Spec (Milestone 1)
-  - [ x] Checked off 2+ completed features
-  - [x ] 2+ Videos/GIFs of build progress
+- [X] Updated 📄 `project_spec.md`, which contains:
+  - [x] App Overview (Milestone 1)
+  - [x] App Spec (Milestone 1)
+  - [x] Checked off 2+ completed features
+  - [x] 2+ Videos/GIFs of build progress
 
-- [ ] Our 🎥 Demo Video
-  - [ ] We have also added the Demo Video Link to the Group Info Form on the course portal.
-
-The following EXTRA features are implemented:
-
-- [ ] List anything else that you added to improve your submission!
+- [X] Our 🎥 Demo Video
+  - [X] We have also added the Demo Video Link to the Group Info Form on the course portal
 
 ## 🎥 Demo Video
 
 Here's a video that demos all of the app's implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Demo' width='' alt='Video Demo' />
+https://github.com/AND101Pod25/Milestone2/assets/40745949/ad9c480e-2232-4a08-aea8-874de745c6ac
 
-VIDEO created with **your chosen video tool**
+Video created with **Mac Screen Recording**
 
 ## Notes
 
