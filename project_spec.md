@@ -57,10 +57,10 @@ Category: Health and Fitness
 ### 1. User Features (Required and Optional)
 Required Features:
 
-- **As a user, when I open the app I want to be shown a new affirmation**
-- **As a user, I want to be shown an edit screen allowing me to set my own affirmation**
-- **As a user, I want to be able to see a list of affirmation categories**
-- **As a user, I want to be able to click on an affirmation category to see a new random affirmation**
+- [x]**As a user, when I open the app I want to be shown a new affirmation**
+- [x]**As a user, I want to be shown an edit screen allowing me to set my own affirmation**
+- []**As a user, I want to be able to see a list of affirmation categories**
+- []**As a user, I want to be able to click on an affirmation category to see a new random affirmation**
 
 
 Stretch Features:
