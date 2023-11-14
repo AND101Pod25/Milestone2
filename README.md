@@ -31,14 +31,13 @@ The following REQUIRED files are included:
   - [x] 2+ Videos/GIFs of build progress
 
 - [X] Our 🎥 Demo Video
-  - [X] We have also added the Demo Video Link to the Group Info Form on the course portal.
+  - [X] We have also added the Demo Video Link to the Group Info Form on the course portal
+
+https://github.com/AND101Pod25/Milestone2/assets/40745949/ad9c480e-2232-4a08-aea8-874de745c6ac
 
 ## 🎥 Demo Video
 
 Here's a video that demos all of the app's implemented features:
-
-<img src='https://youtu.be/GSZDf46jQM0' title='Video Demo' width='' alt='Video Demo' />
-
 VIDEO created with **your chosen video tool**
 
 ## Notes
