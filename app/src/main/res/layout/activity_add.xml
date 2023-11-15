@@ -14,7 +14,6 @@
         android:background="@drawable/circular_button_background"
         android:fontFamily="@font/inter"
         android:text="≡"
-        android:textAlignment="center"
         android:textColor="#FFFFFF"
         android:textSize="40sp"
         app:layout_constraintBottom_toBottomOf="parent"
@@ -22,7 +21,7 @@
         app:layout_constraintHorizontal_bias="0.045"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.023" />
+        app:layout_constraintVertical_bias="0.038" />
 
     <TextView
         android:id="@+id/app_name2"
@@ -36,10 +35,10 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.042" />
+        app:layout_constraintVertical_bias="0.056" />
 
     <EditText
-        android:id="@+id/editTextText2"
+        android:id="@+id/editText"
         android:layout_width="287dp"
         android:layout_height="51dp"
         android:ems="10"
@@ -56,7 +55,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <androidx.appcompat.widget.AppCompatButton
-        android:id="@+id/refresh_affirmation2"
+        android:id="@+id/save_affirmation"
         android:layout_width="176dp"
         android:layout_height="38dp"
         android:background="@drawable/rounded_gray_button_background"

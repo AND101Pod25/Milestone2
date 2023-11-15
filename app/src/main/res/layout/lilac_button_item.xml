@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
-    android:id="@+id/refresh_affirmation"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="8dp">
+    <androidx.appcompat.widget.AppCompatButton xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/lilac_button"
     android:layout_width="176dp"
     android:layout_height="38dp"
+    android:layout_centerInParent="true"
     android:background="@drawable/rounded_lilac_button_background"
-    android:text="My Affirmations"
+    android:text=""
     android:fontFamily="@font/inter_semibold"
     android:textAllCaps="false"
     android:textColor="#3F414E"
     />
+</RelativeLayout>

@@ -39,6 +39,7 @@
         app:layout_constraintVertical_bias="0.04" />
 
     <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="413dp"
         android:layout_height="644dp"
         app:layout_constraintBottom_toBottomOf="parent"

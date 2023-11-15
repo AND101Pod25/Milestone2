@@ -1,30 +1,17 @@
 package com.example.affirmo
 
-import androidx.appcompat.app.AppCompatActivity
+import android.content.Intent
 import android.os.Bundle
 import android.util.Log
-import android.view.LayoutInflater
-import android.view.View
-import android.view.ViewGroup
 import android.widget.Button
-import android.widget.ImageView
 import android.widget.TextView
-import androidx.recyclerview.widget.DividerItemDecoration
-import androidx.recyclerview.widget.LinearLayoutManager
-import androidx.recyclerview.widget.RecyclerView
+import androidx.appcompat.app.AppCompatActivity
 import com.codepath.asynchttpclient.AsyncHttpClient
 import com.codepath.asynchttpclient.callback.JsonHttpResponseHandler
 import okhttp3.Headers
 import kotlin.random.Random
-import android.content.Intent
 
 
-//class MainActivity : AppCompatActivity() {
-//    override fun onCreate(savedInstanceState: Bundle?) {
-//        super.onCreate(savedInstanceState)
-//        setContentView(R.layout.activity_main)
-//    }
-//}
 class MainActivity : AppCompatActivity() {
     private lateinit var quote: String
 
@@ -33,19 +20,19 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
         val button = findViewById<Button>(R.id.refresh_affirmation)
         val tView = findViewById<TextView>(R.id.affirmation)
-        quote = String()
-        getData()
+        val intent = intent
+        quote = intent.getStringExtra("key").toString()
+        if (quote != "Insert your affirmation here...") {
+            getData()
+        }
         getNextImage(button,tView)
         val add_button = findViewById<Button>(R.id.add_button)
         add_button.setOnClickListener {
-            // Move to the second activity
             val intent = Intent(this, AddActivity::class.java)
             startActivity(intent)
         }
         val menu_button = findViewById<Button>(R.id.menu_button)
-
         menu_button.setOnClickListener {
-            // Move to the second activity
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
