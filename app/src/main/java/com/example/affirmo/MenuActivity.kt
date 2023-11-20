@@ -11,7 +11,7 @@ import androidx.recyclerview.widget.GridLayoutManager
 import androidx.recyclerview.widget.RecyclerView
 
 
-class MenuActivity : AppCompatActivity() {
+class MenuActivity : AppCompatActivity( ) {
     private lateinit var recyclerView: RecyclerView
     private lateinit var adapter: ButtonAdapter
     private lateinit var buttonLabels: MutableList<String>
@@ -26,7 +26,13 @@ class MenuActivity : AppCompatActivity() {
 
         buttonLabels = mutableListOf("My Affirmations", "My Favorites", "Anxiety", "Change", "Choice", "Confidence", "Courage", "Death", "Dreams", "Excellence", "Failure", "Fairness", "Fear", "Forgiveness", "Freedom", "Future", "Happiness", "Inspiration", "Kindness", "Leadership", "Life", "Living", "Love", "Pain", "Past", "Success", "Time", "Today", "Truth", "Work")
 
-        adapter = ButtonAdapter(buttonLabels)
+        val myAffirmationOnClickHandler = {
+            _: View ->
+            val intent = Intent(this, UserAffirmationsActivity::class.java)
+            startActivity(intent)
+        }
+
+        adapter = ButtonAdapter(buttonLabels, myAffirmationOnClickHandler)
         recyclerView.adapter = adapter
 
         val menu_button = findViewById<Button>(R.id.menu_button3)
@@ -34,11 +40,10 @@ class MenuActivity : AppCompatActivity() {
             val intent = Intent(this, MainActivity::class.java)
             startActivity(intent)
         }
-
     }
 }
 
-class ButtonAdapter(private val buttonList: List<String>) :
+class ButtonAdapter(private val buttonList: List<String>, private val myAffirmationOnClickHandler: View.OnClickListener) :
     RecyclerView.Adapter<RecyclerView.ViewHolder>() {
 
     companion object {
@@ -77,6 +82,10 @@ class ButtonAdapter(private val buttonList: List<String>) :
             BUTTON_TYPE_1 -> {
                 val buttonViewHolder1 = holder as ButtonViewHolder1
                 buttonViewHolder1.button.text = buttonText
+                if (buttonText.equals("My Affirmations")) {
+                    buttonViewHolder1.button.setOnClickListener(myAffirmationOnClickHandler)
+                }
+
             }
             BUTTON_TYPE_2 -> {
                 val buttonViewHolder2 = holder as ButtonViewHolder2
@@ -91,6 +100,13 @@ class ButtonAdapter(private val buttonList: List<String>) :
 
     class ButtonViewHolder1(itemView: View) : RecyclerView.ViewHolder(itemView) {
         val button: Button = itemView.findViewById(R.id.lilac_button)
+//        init{
+//            button.setOnClickListener {
+//                // Perform actions when the button is clicked
+//                // For example, start an explicit intent
+//                val context = itemView.context
+//                val intent = Intent(context, use_affirmations :: class.java)
+//        }
     }
 
     class ButtonViewHolder2(itemView: View) : RecyclerView.ViewHolder(itemView) {

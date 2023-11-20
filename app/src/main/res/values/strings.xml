@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">Affirmo</string>
+    <string name="defaultAffirmation">Click the top right button to create affirmations</string>
 </resources>

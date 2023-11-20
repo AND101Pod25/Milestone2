@@ -36,7 +36,6 @@ class MainActivity : AppCompatActivity() {
             val intent = Intent(this, MenuActivity::class.java)
             startActivity(intent)
         }
-
     }
     private fun getData(){
         val client = AsyncHttpClient()
